@@ -96,15 +96,17 @@
                     <li>Github: <a href="https://www.github.com/Mlipphardt">Mlipphardt</a></li>
                     <li>Linkedin: <a href="https://www.linkedin.com/in/matthew-lipphardt-8b2356135/">Matthew Lipphardt</a></li>
                 </ul>
-                <form>
+                <form action = "https://formspree.io/xvoaylbe" method = "post">
                     <div class="form-group">
                       <label for="exampleFormControlInput1">Email address</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <input type="email" class="form-control" name = "_replyto" id="email" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Send me a message!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name = "message" id="message" rows="3"></textarea>
                       </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
                 </form>
 
             </div>

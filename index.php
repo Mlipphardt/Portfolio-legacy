@@ -1,4 +1,20 @@
-<?php echo date('l, F jS, Y'); ?>
+<?php 
+if(isset($_POST['submit'])){
+    $to = "matthewlipphardt@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $_POST['message'];
+    $message2 = "Here is a copy of your message: " $_POST['message'];
+
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -96,15 +112,17 @@
                     <li>Github: <a href="https://www.github.com/Mlipphardt">Mlipphardt</a></li>
                     <li>Linkedin: <a href="https://www.linkedin.com/in/matthew-lipphardt-8b2356135/">Matthew Lipphardt</a></li>
                 </ul>
-                <form>
+                <form action = "" method = "post">
                     <div class="form-group">
                       <label for="exampleFormControlInput1">Email address</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <input type="email" class="form-control" name = "email" id="email" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Send me a message!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name = "message" id="message" rows="3"></textarea>
                       </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
                 </form>
 
             </div>
