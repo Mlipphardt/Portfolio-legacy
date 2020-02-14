@@ -22,3 +22,12 @@ html{
 .jumbotron{
     color: maroon;
 }
+
+div {
+    opacity: 0;
+    transition: opacity 2s;
+    }
+    
+div.visible { 
+    opacity: 1;
+    }
