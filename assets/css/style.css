@@ -1,9 +1,13 @@
+*{
+    color: maroon
+}
+
 html{
     min-height: 100%;
 }
 
 #banner{
-    background: url("../images/turkeyrunplaceholder.jpg");
+    background: url("../images/matthewlipphardtbackground.jpg");
     height: 100vh;
     position: static;
     background-size: cover;
@@ -15,12 +19,7 @@ html{
 }
 
 #name{
-    Color: brown;
     font-weight: bolder;
-}
-
-.jumbotron{
-    color: maroon;
 }
 
 div {

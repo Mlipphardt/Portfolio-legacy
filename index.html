@@ -1,5 +1,3 @@
-<?php echo date('l, F jS, Y'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +19,9 @@
 <body>
 
     <div id = "banner">
-        <h1 id = "name" class="display-4">Matthew Lipphardt</h1>
+        <div id = "namewrapper" class = "bg-secondary border border-danger rounded">
+            <h1 id = "name" class="display-4">Matthew Lipphardt</h1>
+        </div>
     </div>
 
 <div class = "bg-dark">
@@ -58,7 +58,9 @@
                     <div class="card-body">
                         <img class="card-img-top w-50 h-50" src="./assets/images/fanfixx.png" alt="Card image cap">
                         <h5 class = "card-title mt-3"> Fanfixx </h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nam itaque quasi temporibus id ratione, nisi iure expedita tempora architecto, incidunt quos quas. Consectetur ab deserunt fugit repudiandae ex odit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi enim voluptates fugit voluptatum? Placeat sed expedita id. Sint repudiandae exercitationem, nulla neque minus sed cum molestias aspernatur odio fuga vero?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum asperiores praesentium consequatur inventore obcaecati voluptas accusamus odio architecto, blanditiis numquam incidunt, commodi ipsum libero alias minima quas. Quam, sunt sit.</p>
+                        <p class = "card-text"><a href="https://www.Mlipphardt.github.io/Fanfixx">Fanfixx Live at Github</a></p>
+                        <p class = "card-text"><a href="https://www.github.com/Mlipphardt/Fanfixx">Fanfixx Github Repository</a></p>
+                        <p class="card-text">Fanfixx is a collaborative project that allows users to access social media and important statistical information about their favorite athletes. Recent InstaGram posts, game schedules, current wins and losses, and biographic information are all made available in this easy-to-use, stylish application.</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +72,9 @@
                     <div class="card-body">
                         <img class="card-img-top w-50 h-50" src="./assets/images/trainscheduler.png" alt="Card image cap">
                         <h5 class = "card-title mt-3"> Train Scheduler </h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nam itaque quasi temporibus id ratione, nisi iure expedita tempora architecto, incidunt quos quas. Consectetur ab deserunt fugit repudiandae ex odit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi enim voluptates fugit voluptatum? Placeat sed expedita id. Sint repudiandae exercitationem, nulla neque minus sed cum molestias aspernatur odio fuga vero?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum asperiores praesentium consequatur inventore obcaecati voluptas accusamus odio architecto, blanditiis numquam incidunt, commodi ipsum libero alias minima quas. Quam, sunt sit.</p>
+                        <p class = "card-text"><a href="https://www.Mlipphardt.github.io/Train-Scheduler">Train Scheduler Live at Github</a></p>
+                        <p class = "card-text"><a href="https://www.github.com/Mlipphardt/Train-Scheduler">Train Scheduler Github Repository</a></p>
+                        <p class="card-text">Train Scheduler allows users to input a train's start time, its name, and frequency. This information is then stored using Google Firebase technology and updated automatically. Never miss your train or bus again!</p>
                     </div>
                 </div>
             </div>
@@ -82,7 +86,9 @@
                     <div class="card-body">
                         <img class="card-img-top w-50 h-50" src="./assets/images/MovieTrivia.png" alt="Card image cap">
                         <h5 class = "card-title mt-3"> Movie Trivia Game </h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nam itaque quasi temporibus id ratione, nisi iure expedita tempora architecto, incidunt quos quas. Consectetur ab deserunt fugit repudiandae ex odit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi enim voluptates fugit voluptatum? Placeat sed expedita id. Sint repudiandae exercitationem, nulla neque minus sed cum molestias aspernatur odio fuga vero?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum asperiores praesentium consequatur inventore obcaecati voluptas accusamus odio architecto, blanditiis numquam incidunt, commodi ipsum libero alias minima quas. Quam, sunt sit.</p>
+                        <p class = "card-text"><a href="https://www.Mlipphardt.github.io/TriviaGame">Movie Trivia Live at Github</a></p>
+                        <p class = "card-text"><a href="https://www.github.com/Mlipphardt/TriviaGame">Movie Trivia Github Repository</a></p>
+                        <p class="card-text">This timed quiz challenges users on their knowledge of Hollwood trivia! Rendered in a stylish frame, this quiz demonstrates the use of time and interval functions and is also able to reset without reloading the page.</p>
                     </div>
                 </div>
             </div>
@@ -98,11 +104,11 @@
                 </ul>
                 <form action = "https://formspree.io/xvoaylbe" method = "post">
                     <div class="form-group">
-                      <label for="exampleFormControlInput1">Email address</label>
+                      <label for="email">Email address</label>
                       <input type="email" class="form-control" name = "_replyto" id="email" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Send me a message!</label>
+                        <label for="message">Send me a message!</label>
                         <textarea class="form-control" name = "message" id="message" rows="3"></textarea>
                       </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
