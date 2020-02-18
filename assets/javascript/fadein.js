@@ -1,10 +1,12 @@
+// Makes the banner and name show up upon page load, without scroll.
 $(document).ready(function(){
    $("#banner").addClass("visible");
+   $("#namewrapper").addClass("visible");
 });
 
+// When user scrolls, elements fade into view
 $(document).on("scroll", function () {
     var pageTop = $(document).scrollTop()
-    console.log(pageTop);
     var pageBottom = pageTop + $(window).height()
     var tags = $("div") 
 
