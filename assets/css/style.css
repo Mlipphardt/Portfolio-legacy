@@ -8,6 +8,15 @@ a {
   font-weight: bold;
 }
 
+div {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+div.visible {
+  opacity: 1;
+}
+
 html {
   min-height: 100%;
 }
@@ -43,13 +52,4 @@ footer {
 
 #name {
   font-weight: bolder;
-}
-
-div {
-  opacity: 0;
-  transition: opacity 2s;
-}
-
-div.visible {
-  opacity: 1;
 }
