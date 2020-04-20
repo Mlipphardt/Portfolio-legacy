@@ -13,7 +13,7 @@ But don't take my word for it, scroll down to my Portfolio and take a look for y
 
 When you're ready to start, contact me!
 
-###Contact Information
+### Contact Information
 ---
 Phone: 321-663-1251
 Email: Matthewlipphardt@gmail.com
